@@ -210,7 +210,8 @@ nav .fas{
 
 
 @media( max-width: 705px) {
-  
+
+
     .text-1{
         font-size: 20px;
     }
@@ -224,12 +225,14 @@ nav .fas{
     }
 
 
-    .button{
-        padding:5px 15px;
-        position:absolute;
-        bottom: 20%;
-        left: 58px;
-    }
+ a.button{
+     position: absolute;
+     bottom: 26%;
+     left: 15%;
+ }
+ 
+  
+
 
 }
 
@@ -238,7 +241,7 @@ nav .fas{
 
    .container{
        position:absolute;
-       top:30%
+       top:27%
    }
 
    nav a img{
@@ -249,7 +252,7 @@ nav .fas{
 
    .button{
        position: absolute;
-       bottom: 23%;
+       bottom: 29%;
        left:33%;
        padding:12px 23px
    }
@@ -269,7 +272,6 @@ nav .fas{
 
     .nav-links {
         position:absolute;
-        /* background: rgb(0,47,42); */
        background-color: #bdc3c7 ;
         letter-spacing: 2px;
         height: 100vh;
@@ -296,34 +298,24 @@ nav .fas{
    }
 
 
+   .container{
+    position:absolute;
+    top:27%;
+}
+
    .button{
        position:absolute;
-       bottom: 25%;
-       left:17%;
-       padding:3px 12px
+       bottom: 23%;
+       left:38%;
+       padding:12px 21px;
+       font-size: 28px;
    }
-
-   
-   .container{
-       position: absolute;
-       top: 27%;
-   }
-
-}
-
-
-
-@media (max-width: 1030px){
-    
-    .button{position: absolute;
-            left: 39%;}
-
-
 
 
 }
 
 
+/* for tv */
 @media (max-width:1990px){
 
     .nav-links ul li{

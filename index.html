@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link  rel="stylesheet"  href="style.css">
+    <title>Towing-Nepal</title>
+</head>
+<body>
+
+    <section class="header">
+
+       <nav>
+           <a href="index.html"><img src="images/logo.jpg"></a>
+           <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  style="position: absolute; left: 19px; top: 20px; font-size: 19px;"  onclick="hideMenu()" ></i>
+              <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Services</a></li>
+                 <li><a href="#">Gallery</a></li>
+                 <li><a href="#">Contact Us</a></li>
+
+             </ul>
+         </div> 
+         <i class="fa fa-bars"  style="position: absolute; right: 6%; top: 39px;"   onclick="showMenu()" ></i>
+        </nav>
+
+        <div class="container">
+         <span>
+          <h1 class="text-1">WELCOME TO TOWING NEPAL</h1>
+           <p class="text-2"><strong>Professional Vehicle towing</strong></p>
+            <p class="text-3">all over Nepal</p>
+             </span>
+              </div>
+
+
+  <!-- <a href=""  class="button">Contact us to know more</a>  -->
+                  
+
+    </section>
+
+
+
+
+
+ <section class="section-2">
+
+    <body>
+        <div class="container-2">
+         <div class="card">
+           <div class="content">
+               <h3>Tittle-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam laborum tempora quae cumque sint mollitia blanditiis? Est ducimus natus quo blanditiis laborum velit perspiciatis, excepturi officia fuga reiciendis nemo recusandae dolore.</p>
+           </div>
+         </div>
+         <div class="card">
+            <div class="content">
+                <h3>Tittle-2</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam laborum tempora quae cumque sint mollitia blanditiis? Est ducimus natus quo blanditiis laborum velit perspiciatis, excepturi officia fuga reiciendis nemo recusandae dolore.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+                <h3>Tittle-3</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam laborum tempora quae cumque sint mollitia blanditiis? Est ducimus natus quo blanditiis laborum velit perspiciatis, excepturi officia fuga reiciendis nemo recusandae dolore.</p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>VanillaTilt.init(document.querySelectorAll(".card")
+        ,{
+            max: 25,
+            speed: 400
+        });</script>
+    </body>
+ </section>   
+    
+               <!-- javascript part  -->
+
+
+               <!-- javascript for toggle menu -->
+
+
+<script>
+
+ var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+  navLinks.style.right = "0";
+}
+
+function hideMenu(){
+  navLinks.style.right = "-200px";
+}
+
+
+</script>
+
+
+
+               <!-- // #d4d7de -->
+    
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+
+
+
+</body>
+</html>

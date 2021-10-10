@@ -21,7 +21,7 @@ html,body
 .section-1{
     min-height: 100vh;
     width: 100%;    
-    background-image: url(/assets/images/undraw_towing_6yy4.svg); 
+    background-image: url(assets/images/undraw_towing_6yy4.svg); 
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;

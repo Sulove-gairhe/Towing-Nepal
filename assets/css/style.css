@@ -21,7 +21,7 @@ html,body
 .section-1{
     min-height: 100vh;
     width: 100%;    
-    background-image: url(assets/images/undraw_towing_6yy4.svg); 
+    background-image: url( ../assets/images/undraw_towing_6yy4.svg); 
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
@@ -183,7 +183,7 @@ nav.fa{
     min-height: 100vh;
     width: 100%;    
     background-color: #fff;
-    background-image: url(/assets/images/Abract01.png);
+    background-image: url( ../assets/images/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
 }   
@@ -236,7 +236,7 @@ nav.fa{
 
  .section-3{
     min-height: 100vh;
-    background-image: url(/assets/images/hiii.jpg);
+    background-image: url( ../assets/images/hiii.jpg);
     background-color: white;
     position: relative;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.74);
